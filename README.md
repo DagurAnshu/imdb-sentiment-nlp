@@ -52,11 +52,11 @@ The current version uses a well-established classical NLP pipeline:
 ---
 ## How to Run
 
- 1. Install Dependencies
+1. Install Dependencies
 ```bash
 pip install datasets scikit-learn
 
-### 2. Run the Notebook
+2. Run the Notebook
 
 Open the notebook in Jupyter Notebook or Google Colab
 
@@ -64,7 +64,7 @@ Restart the kernel
 
 Run all cells from top to bottom
 
-### 3. Predict on Custom Reviews
+3. Predict on Custom Reviews
 
 Use the provided function to test custom input:
 
