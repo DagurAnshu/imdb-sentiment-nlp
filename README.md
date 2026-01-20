@@ -9,7 +9,7 @@ that shows how raw text is transformed into meaningful predictions.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - Dataset: IMDb Movie Reviews (Hugging Face)
 - Task: Binary sentiment classification (Positive / Negative)
@@ -18,7 +18,7 @@ that shows how raw text is transformed into meaningful predictions.
 
 ---
 
-## 🧠 Current Implementation (Classical NLP)
+## Current Implementation (Classical NLP)
 
 The current version uses a well-established classical NLP pipeline:
 
@@ -41,7 +41,7 @@ The current version uses a well-established classical NLP pipeline:
 
 ---
 
-## 📊 Results
+## Results
 
 - Test Accuracy: **~88–90%** on the IMDb test set
 - Performance is comparable to standard classical NLP baselines
@@ -50,7 +50,26 @@ The current version uses a well-established classical NLP pipeline:
 > training data, test data, and user input.
 
 ---
+## How to Run
 
-## 🗂 Repository Structure (Planned)
+### 1. Install Dependencies
+```bash
+pip install datasets scikit-learn
 
+### 2. Run the Notebook
 
+Open the notebook in Jupyter Notebook or Google Colab
+
+Restart the kernel
+
+Run all cells from top to bottom
+
+### 3. Predict on Custom Reviews
+
+Use the provided function to test custom input:
+
+predict_label("The movie was slow but the ending was excellent")
+and you can use any other custom input as per your choice for checking.
+
+That’s it.
+And presently it is enough to do.
