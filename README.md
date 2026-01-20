@@ -52,7 +52,7 @@ The current version uses a well-established classical NLP pipeline:
 ---
 ## How to Run
 
-### 1. Install Dependencies
+ 1. Install Dependencies
 ```bash
 pip install datasets scikit-learn
 
